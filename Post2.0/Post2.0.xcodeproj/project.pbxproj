@@ -15,7 +15,6 @@
 		D0E066F81D7F53780001FCFF /* Post Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E066F71D7F53780001FCFF /* Post Controller.swift */; };
 		D0E066FA1D7F53870001FCFF /* Network Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E066F91D7F53870001FCFF /* Network Controller.swift */; };
 		D0E066FC1D7F54430001FCFF /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E066FB1D7F54430001FCFF /* PostTableViewController.swift */; };
-		D0E066FE1D7F54550001FCFF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E066FD1D7F54550001FCFF /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		D0E066F71D7F53780001FCFF /* Post Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post Controller.swift"; sourceTree = "<group>"; };
 		D0E066F91D7F53870001FCFF /* Network Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network Controller.swift"; sourceTree = "<group>"; };
 		D0E066FB1D7F54430001FCFF /* PostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
-		D0E066FD1D7F54550001FCFF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +60,41 @@
 		D0E066E21D7F533D0001FCFF /* Post2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				D0E066E31D7F533D0001FCFF /* AppDelegate.swift */,
 				D0E066E71D7F533D0001FCFF /* Main.storyboard */,
-				D0E066FB1D7F54430001FCFF /* PostTableViewController.swift */,
-				D0E066FD1D7F54550001FCFF /* PostCell.swift */,
-				D0E066F51D7F536E0001FCFF /* Post.swift */,
-				D0E066F71D7F53780001FCFF /* Post Controller.swift */,
+				D0E066FF1D7F591C0001FCFF /* Model */,
+				D0E067011D7F59390001FCFF /* Model Controllers */,
+				D0E067001D7F592A0001FCFF /* View Controllers */,
 				D0E066F91D7F53870001FCFF /* Network Controller.swift */,
+				D0E066E31D7F533D0001FCFF /* AppDelegate.swift */,
 				D0E066EA1D7F533D0001FCFF /* Assets.xcassets */,
 				D0E066EC1D7F533D0001FCFF /* LaunchScreen.storyboard */,
 				D0E066EF1D7F533D0001FCFF /* Info.plist */,
 			);
 			path = Post2.0;
+			sourceTree = "<group>";
+		};
+		D0E066FF1D7F591C0001FCFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0E066F51D7F536E0001FCFF /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D0E067001D7F592A0001FCFF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E066FB1D7F54430001FCFF /* PostTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D0E067011D7F59390001FCFF /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E066F71D7F53780001FCFF /* Post Controller.swift */,
+			);
+			name = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +174,6 @@
 				D0E066FA1D7F53870001FCFF /* Network Controller.swift in Sources */,
 				D0E066F61D7F536E0001FCFF /* Post.swift in Sources */,
 				D0E066F81D7F53780001FCFF /* Post Controller.swift in Sources */,
-				D0E066FE1D7F54550001FCFF /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
